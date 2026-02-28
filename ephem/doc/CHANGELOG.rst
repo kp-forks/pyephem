@@ -2,6 +2,19 @@
 PyEphem CHANGELOG
 =================
 
+Version 4.2.1 (2026 February 28)
+--------------------------------
+
+- The first release that offers wheels for Python 3.14.
+
+- The star database now makes the star ‘Albereo’ also available under
+  its more official spelling ‘Albireo’.
+
+- Classes like ``Sun`` and ``Mercury`` are now defined using plain
+  literal ``class`` statements, instead of being built dynamically in a
+  ``for`` loop.  This should make the classes visible to tools like
+  editors, debuggers, and type checkers.
+
 Version 4.2 (2024 February 18)
 ------------------------------
 
